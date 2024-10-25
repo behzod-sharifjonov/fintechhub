@@ -1,0 +1,240 @@
+/* header */
+
+.header-container {
+    background-color: #022c46;
+    padding: 10px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .5s ease;
+}
+
+.header-container a:hover {
+    color: #022c46;
+}
+
+
+/* navbar */
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+nav .logo img {
+    width: 150px;
+}
+
+.nav-ul-social {
+    gap: 20px;
+}
+
+.nav-ul-social a {
+    font-size: 25px;
+    color: silver;
+}
+
+.nav-ul-list {
+    color: silver;
+    gap: 22px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-ul-list li {
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px 14px;
+}
+
+.nav-ul-list li.active {
+    padding: 10px 14px;
+    border-radius: 8px;
+    /* Active bo'lgan sahifadagi elementning foni qizil */
+    color: #022c46;
+}
+
+.nav-menu-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 2.2rem;
+    color: rgb(110, 110, 110);
+}
+
+/* banner */
+
+.banner {
+    height: 83vh;
+    background-image: url(../images/headerBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.banner-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-heading h1 {
+    color: white !important;
+    font-size: 3.3rem;
+    width: 650px;
+}
+
+.banner-span {
+    color: silver;
+}
+
+
+
+/* contact form */
+
+.contact-container {
+    backdrop-filter: blur(50px);
+    height: 400px;
+    border-radius: 25px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    background: #022c4635;
+}
+
+.contact-container span {
+    font-size: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form .name-input,
+.contact-form .number-input {
+    background-color: white;
+    height: 50px;
+    border: none;
+    width: 300px;
+    font-size: 18px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #022c46;
+    color: white;
+}
+
+.name-input input {
+    width: 100%;
+}
+
+.contact-input input:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.number-input input {
+    width: 80%;
+}
+
+.contact-input input {
+    border: none;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media screen and (max-width:767px) {
+    .nav-list {
+        display: none;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .banner {
+        height: 90vh;
+    }
+
+    .banner-span {
+        font-size: 0.6rem;
+    }
+
+    .banner-heading h1 {
+        width: 100%;
+        font-size: 1.9rem;
+        height: 120px;
+    }
+
+    .banner-heading {
+        text-align: center;
+    }
+
+    .contact-container {
+        width: 350px;
+    }
+
+    .header-container {
+        padding: 10px 2%;
+    }
+
+    .header-container a {
+        font-size: 0.5rem;
+    }
+
+    nav {
+        height: 70px;
+    }
+}
