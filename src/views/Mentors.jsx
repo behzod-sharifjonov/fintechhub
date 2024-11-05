@@ -7,14 +7,11 @@ import Salohiddin from '../images/Salohiddin.png'
 import Erkaboy from '../images/Erkaboy.png'
 import Jahongir from '../images/Jahongir.png'
 import Behzod from '../images/Behzod.png'
-import { Link, useNavigate } from 'react-router-dom'
+import Kamron from '../images/kamron.jpg'
+import { Link } from 'react-router-dom'
 
 
 function Mentors() {
-
-  const navigate = useNavigate()
-
-
 
   return (
     <div>
@@ -74,7 +71,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={alisher} alt="" />
+            <img src={Kamron} alt="Kamon.png" />
             <div className="mentor-title">
               <h3>Kamron</h3>
               <span>Kids Junior ustoz</span><br />
@@ -82,7 +79,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Behzod} alt="" />
+            <img src={Behzod} alt="Behzod.png" />
             <div className="mentor-title">
               <h3>Behzod Sharifjonov</h3>
               <span>Frontend dasturchi</span><br />
