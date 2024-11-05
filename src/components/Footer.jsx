@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom'
 import nav_logo from '../images/logo-black.svg'
 import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -38,6 +40,12 @@ function Footer() {
                   </Link>
                   <Link to={'https://t.me/fintechhubuz'}>
                     <SiTelegram />
+                  </Link>
+                  <Link>
+                    <FaFacebook />
+                  </Link>
+                  <Link>
+                    <FaLinkedin />
                   </Link>
                 </ul>
               </div>

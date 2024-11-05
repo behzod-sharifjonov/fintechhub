@@ -38,9 +38,6 @@ function App() {
           <Route path="toshkentda-dasturlash-kurslari" element={<CousePage />} />
           <Route path="ustozlarimiz" element={<Mentors />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="frontend" element={<Frontnd />} />
-          <Route path="backend" element={<Backend />} />
-          <Route path="mobile" element={<Mobile />} />
         </Routes>
         <Footer />
       </div>}

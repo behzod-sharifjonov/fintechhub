@@ -1229,18 +1229,21 @@ footer {
         top: 80px;
         right: 40px;
         width: 50px;
+        z-index: -99;
     }
 
     .cycle_second {
         top: 80px;
         right: 70px;
         width: 50px;
+        z-index: -99;
     }
 
     .cycle_third {
         width: 50px;
         left: 20%;
         top: 50%;
+        z-index: -99;
     }
 
     .contact-forms {

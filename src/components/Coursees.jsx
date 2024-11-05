@@ -10,7 +10,7 @@ function Coursees() {
         <div className='course'>
             <div className="course-container">
                 <div className="course-parent">
-                    <div onClick={() => navigate('/frontend')} className="course-card">
+                    <div  className="course-card">
                         <h3>Frontend dasturlash kurslari</h3>
                         <ul>
                             <li>- Haftasiga 3 kun</li>
@@ -31,7 +31,7 @@ function Coursees() {
                         <img className='course-icon' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s" alt="" />
 
                     </div>
-                    <div onClick={() => navigate('/backend')} className="course-card">
+                    <div className="course-card">
                         <h3>Python tilida Backend kurslari </h3>
                         <ul>
                             <li>- Haftasiga 3 kun</li>
@@ -53,7 +53,7 @@ function Coursees() {
                         <img className='course-icon' src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="" />
 
                     </div>
-                    <div onClick={() => navigate('/mobile')} className="course-card">
+                    <div className="course-card">
                         <h3>Golang tilida Backend kurslari </h3>
                         <ul>
                             <li>- Haftasiga 3 kun</li>
@@ -75,7 +75,7 @@ function Coursees() {
                         <img className='course-icon' src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" alt="" />
 
                     </div>
-                    <div className="course-card" onClick={() => navigate('/frontend')}>
+                    <div className="course-card" >
                         <h3>QA Engineer dasturlash kurslari</h3>
                         <ul>
                             <li>- Haftasiga 3 kun</li>
@@ -94,7 +94,7 @@ function Coursees() {
                         <img className='course-icon' src="https://cdn4.iconfinder.com/data/icons/inspection/512/inspection-qa-qualify-02-512.png" alt="" />
 
                     </div>
-                    <div className="course-card" onClick={() => navigate('/frontend')}>
+                    <div className="course-card" >
                         <h3>Ilova yaratadigan Mobile Flutter kurslari </h3>
                         <ul>
                             <li>- Haftasiga 3 kun</li>
@@ -114,7 +114,7 @@ function Coursees() {
                         <img className='course-icon' src="https://storage.googleapis.com/cms-storage-bucket/a9d6ce81aee44ae017ee.png" alt="" />
 
                     </div>
-                    <div className="course-card" onClick={() => navigate('/frontend')}>
+                    <div className="course-card" >
                         <h3>Kids kurslari</h3>
                         <ul>
                             <li>- Haftasiga 3 kun</li>
