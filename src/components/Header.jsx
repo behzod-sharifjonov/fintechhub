@@ -19,7 +19,7 @@ function Header() {
                         <span>info@fintechhub.uz</span>
                     </a>
                 </div>
-                <a href="">
+                <a href="https://dasturlash.fintechhub.uz/">
                     <b>Kurslarga yozilish</b>
                 </a>
             </div>
