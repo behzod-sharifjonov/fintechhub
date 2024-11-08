@@ -1,13 +1,13 @@
 import React from 'react'
 import './views.css'
 import alisher from '../images/Alisher.png'
-import Otabek from '../images/Otabek.png'
-import Muhammadrasul from '../images/Muhammadrasul.png'
-import Salohiddin from '../images/Salohiddin.png'
-import Erkaboy from '../images/Erkaboy.png'
-import Jahongir from '../images/Jahongir.png'
-import Behzod from '../images/Behzod.png'
-import Kamron from '../images/kamron.jpg'
+import otabek from '../images/Otabek.png'
+import muhammadrasul from '../images/Muhammadrasul.png'
+import salohiddin from '../images/Salohiddin.png'
+import erkaboy from '../images/Erkaboy.png'
+import jahongir from '../images/Jahongir.png'
+import behzod from '../images/Behzod.png'
+import kamron from '../images/kamron.jpg'
 import { Link } from 'react-router-dom'
 
 
@@ -31,7 +31,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Otabek} alt="" />
+            <img src={otabek} alt="" />
             <div className="mentor-title">
               <h3>Otabek Fozilov</h3>
               <span>Frontend | React JS dasturchi</span><br />
@@ -39,7 +39,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Muhammadrasul} alt="" />
+            <img src={muhammadrasul} alt="" />
             <div className="mentor-title">
               <h3>Muhammadrasul Rustamov</h3>
               <span>Backend | Golang dasturchi</span><br />
@@ -47,7 +47,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Salohiddin} alt="" />
+            <img src={salohiddin} alt="" />
             <div className="mentor-title">
               <h3>Salohiddin Sayfiddinov</h3>
               <span>Mobile | Flutter dasturchi</span><br />
@@ -55,7 +55,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Erkaboy} alt="" />
+            <img src={erkaboy} alt="" />
             <div className="mentor-title">
               <h3>Erkaboy Fayyozbekov</h3>
               <span>Backend | Python dasturchi</span><br />
@@ -63,7 +63,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Jahongir} alt="" />
+            <img src={jahongir} alt="" />
             <div className="mentor-title">
               <h3>Jahongir</h3>
               <span>Backend yordamchi ustoz</span><br />
@@ -71,7 +71,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Kamron} alt="Kamon.png" />
+            <img src={kamron} alt="Kamon.png" />
             <div className="mentor-title">
               <h3>Kamron</h3>
               <span>Kids Junior ustoz</span><br />
@@ -79,7 +79,7 @@ function Mentors() {
             </div>
           </div>
           <div className="mentors-card">
-            <img src={Behzod} alt="Behzod.png" />
+            <img src={behzod} alt="Behzod.png" />
             <div className="mentor-title">
               <h3>Behzod Sharifjonov</h3>
               <span>Frontend dasturchi</span><br />
