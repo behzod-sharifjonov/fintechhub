@@ -33,6 +33,7 @@
     display: flex;
   }
 
+
   .sticky {
     position: fixed;
     top: 0;

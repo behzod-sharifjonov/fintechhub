@@ -25,7 +25,7 @@ function App() {
     // Simulate an API call or some loading process
     setTimeout(() => {
       setLoading(false);
-    }, 5000); // Loading for 3 seconds
+    }, 100); // Loading for 3 seconds
   }, []);
 
   return (

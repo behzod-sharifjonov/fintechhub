@@ -17,7 +17,7 @@ function Navbar() {
   // Scroll detection logic
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 40) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
